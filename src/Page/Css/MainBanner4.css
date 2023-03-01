@@ -1,0 +1,175 @@
+.banner-4{
+    display: block;
+    height: auto;
+    position: relative;
+}
+.banner4-cart{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+}
+.cart{
+    width: 25%;
+    height: 500px;
+    background-color: #17191C;
+    border: 10px solid black;
+    border-radius: 20px;
+    position: relative;
+    
+}
+/* Reponsive */
+@media only screen and (max-width: 1040px){
+    .cart{
+        width: 33.3%;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .cart{
+        width: 49.8%;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 490px){
+    .cart{
+        width: 98%;
+        height: 500px;
+    }
+}
+/* Reponsive */
+.cart:hover .banner-4-img{
+    transform: scale(1.3);
+}
+.banner-4-over-img{
+    position: relative;
+    top:5px;
+    left: 5px;
+    right: 5px;
+    width: 97%;
+    height: 78%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.banner-4-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.banner-4-infor-card{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 4px 8px;
+}
+.banner-4-namecard{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.banner-4-namecard-stick{
+    display: flex;
+    flex-direction: row;
+}
+.banner-4-namecard-stick>p{
+    width: auto;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #C1C1C1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.banner-4-iconbluestick{
+    background-size: 70%;
+}
+.banner-4-price-button{
+    display: flex;
+    justify-content: space-between;
+}
+.eth{
+    background-image: url("https://img.icons8.com/external-black-fill-lafs/15/22C3E6/external-Ethereum-cryptocurrency-black-fill-lafs.png");
+}
+.banner-4-price-eth{
+    display: flex;
+    align-items: center;
+}
+.banner-4-icon{
+    height: 16px;
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.banner-4-price-eth>p{
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;    
+    color: #FFFFFF;
+}
+.price-card-2{
+    font-style: normal;
+    margin-left: 5px!important;
+    font-weight: 300!important;
+    font-size: 11px!important;
+    line-height: 18px;    
+    color: #FFFFFF;
+}
+.banner-4-button-place-a-bid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 10px;
+    background: linear-gradient(86.57deg, #12D8FA 8.91%, #A6FFCB 92.4%);
+    border-radius: 100px;
+    margin-right: 5px;
+    border: none;
+}
+.banner-4-button-place-a-bid>p{
+    width: 78px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.banner-4-button-heart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    left: 76.03%;
+    right: 5.99%;
+    top: 4.59%;
+    bottom: 82.43%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+    border-radius: 47%;
+    border: none;
+}
+.banner-4-button-heart:hover .icon-heart{
+    transform: scale(1.2);
+}
+.icon-heart{
+    width: 50px;
+    height: 50px;
+}
